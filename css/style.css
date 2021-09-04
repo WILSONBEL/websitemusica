@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body {
+    margin: 0%;
+    font-family: 'Oswald', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background: url(../img/fondo-musica.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}  
+
+header nav{
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+}
+header nav ul {
+    text-align: left;
+    display: flex;
+    margin: 0;
+    padding: 3%;
+}
+header nav ul li {
+    list-style: none;
+    margin-right: 0%;
+
+}
+header nav ul li a {
+    color: #000000;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.4s;
+}
+header nav ul li a:hover{
+    border: 2px dotted #ffffff;
+}
+
+header #hero{
+    text-align: center;
+    margin-top: 0;
+}
+header #hero h1 {
+color: rgb(2, 2, 2);
+font-size: 60px;
+margin: 0;
+}
+header #hero p { 
+ color: #0a0a0a;
+ font-size: 30px;
+ margin: 0;
+
+}
+header #hero button {
+    background: rgb(131, 18, 3);
+    color: rgb(14, 15, 59);
+    font-size: 40px;
+    border-radius: 15px;
+    padding: 10px 20px;
+margin-top: 55px;
+}
+header nav a img {
+    transition: 00.4s;
+}
+header nav a img:hover {
+    transform: scale(1.1);
+}
+main #planes{
+    padding: 0 0;
+    text-align: center;
+}
+.container{
+    width: 100px;
+    margin: 0 auto;
+}
+main #planes h1{
+    font-size: 60px;
+    margin-bottom: 35px;
+
+}
+main #planes p{
+    font-size: 25px;
+}
+main #planes .row .card-plan{
+    
+    width: 30%;
+    position: relative;
+
+}
+main #planes .row .card-plan h3{
+    color: rgb(255, 8, 0);
+    font-size: 26px;
+    margin: 0;
+    position: absolute;
+    top: 115px;
+    right: 0;
+    left: 0;
+    text-align: center;
+
+}
+main #planes .row .card-plan p{
+    margin: 0;
+}
+main #planes .row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50;
+}
+main #destinos{
+    background: url(../img/segundo\ logo.jpg);
+    padding: 110px 0px 40px 0px;
+    background-size: cover;
+}
+
+main #destinos{
+    padding: 100px 0;
+    text-align: center;
+}
+.container{
+    width: 1200px;
+    margin: 0% auto;
+}
+
+main #destinos h2{
+    font-size: 50px;
+    margin-bottom: 0;
+    color: rgb(23, 156, 11);
+
+}
+main #destinos .row .card-destinos{
+    width: 2%;
+    position: relative;
+}
+main #destinos .row .card-destinos h3{
+color: white;
+font-size: 35px;
+margin: 0;
+position: absolute;
+top: 270px;
+right: 0px;
+left: 0;
+text-align: 0;
+}
+main #destinos .row .card-destinos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+main #destinos .row .card-destinos{
+    width: 30%;
+    position: relative;
+}
+main    #destinos .row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+main #Contacto{
+    background: rgb(165, 29, 192);
+    padding: 100px 0 150px;
+    text-align: center;
+}
+
+main #Contacto h2{
+    font-size: 50px;
+
+}
+main #Contacto p{
+    font-size: 20px;
+    font-weight: 500;
+}
+main #Contacto form input{
+    width: 35%;
+    font-size: 20px;
+    padding: 12px 15px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid #666666;
+}
+main #Contacto form select{
+    width: 38%;
+    font-size: 20px;
+    padding: 12px 15px;
+    margin: 20px;
+    border-radius: 5px;
+}
+main #Contacto form button{
+padding: 12px 70px;
+font-size: 20px;
+margin-top: 50px;
+border-radius: 5px;
+color: #ffffff;
+background: rgb(116, 116, 9);
+}
+footer{
+    background: #000000;
+    text-align: center;
+    padding: 30px 0;
+    color: #ffffff;
+    
+}
